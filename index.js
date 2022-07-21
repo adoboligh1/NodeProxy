@@ -1,4 +1,3 @@
-// Import of net module
 const net = require("net");
 const server = net.createServer();
 
@@ -61,7 +60,7 @@ server.on("error", (err) => {
 });
 
 server.on("close", () => {
-    console.log("Client disconnected");
+    console.log("Client clienttt");
 });
 
 server.listen(
